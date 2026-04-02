@@ -357,9 +357,20 @@ const App = () => {
             </div>
             <div style={{ position: 'relative' }}>
                <div style={{ width: '100%', height: '500px', backgroundColor: '#ddd', borderRadius: '30px', backgroundImage: 'url(/nairobi_office.png)', backgroundSize: 'cover', backgroundPosition: 'center', boxShadow: '20px 20px 60px rgba(0,0,0,0.1)' }}></div>
-               <div className="glass-effect" style={{ position: 'absolute', bottom: '-30px', right: '-30px', padding: '40px', borderRadius: '20px', maxWidth: '300px' }}>
-                  <h4 style={{ fontWeight: 800, color: '#004d40', fontSize: '1.3rem', marginBottom: '15px' }}>Our Vision</h4>
-                  <p style={{ fontSize: '0.9rem', color: '#444', lineHeight: '1.6' }}>To be Kenya’s most trusted immigration consultancy, empowering individuals, families, and organizations to navigate migration with confidence and compliance.</p>
+               <div style={{ 
+                  position: 'absolute', 
+                  bottom: '-20px', 
+                  right: '-20px', 
+                  padding: '30px', 
+                  borderRadius: '25px', 
+                  maxWidth: '320px',
+                  background: 'rgba(0, 77, 64, 0.9)', 
+                  backdropFilter: 'blur(15px)',
+                  boxShadow: '0 20px 50px rgba(0,0,0,0.3)',
+                  border: '1px solid rgba(255,255,255,0.1)'
+               }}>
+                  <h4 style={{ fontWeight: 800, color: '#c6934b', fontSize: '1.2rem', marginBottom: '12px' }}>Our Vision</h4>
+                  <p style={{ fontSize: '0.85rem', color: 'white', lineHeight: '1.6' }}>To be Kenya’s most trusted immigration consultancy, empowering individuals, families, and organizations to navigate migration with confidence and compliance.</p>
                </div>
             </div>
           </div>
